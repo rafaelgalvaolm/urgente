@@ -27,10 +27,10 @@ function App() {
                       </div>
                       <div className='container-input'>
                         <div className='input-senha-diaria'>
-                          <input type='text' />
+                          <input type='text' className='input-senha' />
                         </div>
                         <div className='botao-senha'>
-                          <button>Enviar</button>
+                          <button className='enviar-senha'>Enviar</button>
                         </div>
                       </div>
                     </div>
@@ -65,6 +65,9 @@ function App() {
                       <h2>Aqui ficarão os posicionamentos</h2>
                     </div>
                   </div>
+                </div>
+                <div className='container-botao'>
+                  <button className='botao-sair'>Sair</button>
                 </div>
               </div>
             </div>

@@ -8,7 +8,6 @@ body{
 }
 
 .container-esquerdo{
-  flex: 1;
   padding: 20px;
   margin-top: 60px;
   margin-left: 30px;
@@ -16,9 +15,9 @@ body{
 }
 
 .container-direito{
-  flex: 1;
-  padding: 20px;
-  padding-right: 100px;
+  margin-top: 40px;
+  padding: 40px 100px 10px 90px;
+  margin-top: 40px; 
 }
 
 .container-relogio{
@@ -32,7 +31,7 @@ body{
 }
 
 .container-relogio .borda{
-  width: 400px;
+  width: 500px;
   height: 280px;
 }
 
@@ -42,3 +41,65 @@ body{
   text-align: center;
 }
 
+.container-direito{
+
+}
+
+.container-ocorrencia .borda{
+  height: 110px;
+}
+
+.container-input{
+  display: inline-flex;
+}
+
+.input-senha{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: lightgray;
+  margin-left: 90px;
+}
+
+.container-input .botao-senha{
+  padding-left: 20px;
+}
+
+.enviar-senha{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container-posicionamento{
+  padding-top: 30px;
+}
+
+.container-posicionamento .borda{
+  
+  height: 200px;
+}
+
+.container-botao{
+  padding-top: 40px;
+  padding-left: 420px;
+}
+
+.botao-sair{
+  width: 100px;
+  height: 40px;
+  background-color: #FF0000;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+}
